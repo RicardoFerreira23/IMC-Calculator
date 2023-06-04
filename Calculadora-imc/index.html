@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Projeto IMC</title>
+
+    <link rel="stylesheet" href="styles/estilo.css">
+</head>
+
+<body>
+    <header class="top-header">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Nada</a></li>
+                <li><a href="#">ඞ</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Calculadora IMC</h1>
+            <p>Uma simples calculadora de IMC</p>
+        </div>
+    </header>
+
+    <main>
+
+
+        <h3>Cálculo IMC</h3>
+
+<div>
+  <form action="">
+    <label for="Altura">Altura</label>
+    <input type="text" id="Altura" placeholder="Sua altura">
+
+    <label for="Peso">Peso</label>
+    <input type="text" id="Peso" placeholder="Seu peso">
+
+    <label for="Sexo">Sexo</label>
+    <select id="Sexo" name="Sexo">
+      <option value="M">Masculino</option>
+      <option value="F">Feminino</option>
+      <option value="T">Transformer</option>
+    </select>
+  
+    <div class="div-buttons">
+    <input type="submit" value="Calcular">
+    <input type="reset" value="Apagar">
+    </div>
+  </form>
+</div>
+
+<div class="calc-result">
+    <span>SEU IMC:</span>
+    <strong></strong>
+</div>
+
+        <section>
+
+           <table>
+                <thead>
+                    <td colspan="3" class="table-calc-td">VEJA A INTERPRETAÇÃO DO IMC</td>
+                </thead>
+
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>CLASSISFICAÇÃO</th>
+                        <th>OBESIDADE</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td class="td-low">MENOR QUE 18,5 <br>ENTRE 18,5 E 24,9 <br> ENTRE 30,0 E 39,9</td>
+                        <td class="td-low">MAGREZA</td>
+                        <td class="td-low">0</td>
+                    </tr>
+        
+                    <tr>
+                        <td class="td-low">ENTRE 18,5 E 24,9</td>
+                        <td class="td-low">NORMAL</td>
+                        <td class="td-low">0</td>
+                    </tr>
+        
+                    <tr>
+                        <td class="td-low">ENTRE 30,0 E 39,9</td>
+                        <td class="td-low">SOBREPESO</td>
+                        <td class="td-low">1</td>
+                    </tr>
+        
+                    <tr>
+                        <td class="td-low">ENTRE 30,0 E 39,9 <br> MAIOR QUE 40,0</td>
+                        <td class="td-low">OBESIDADE</td>
+                        <td class="td-low">2</td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-low">MAIOR QUE 40,00</td>
+                        <td class="td-low">OBESIDADE GRAVE</td>
+                        <td class="td-low">3</td>
+                    </tr>
+        
+                </tbody>
+           </table>            
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        Copyright &copy; 2023 Feito por Ricardo :D
+    </footer>
+</body>
+
+</html>
